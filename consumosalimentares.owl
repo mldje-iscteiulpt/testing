@@ -1,0 +1,1314 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl"
+     xml:base="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl"
+     xmlns:Ontology1306707127855="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707086385.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#eAvoDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#eAvoDe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#eFilhoDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#eFilhoDe">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#eIrmaoDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#eIrmaoDe">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#eMarcaDoProduto -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#eMarcaDoProduto">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#eProdutoDaMarca"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ePaiDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ePaiDe">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#eProdutoDaMarca -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#eProdutoDaMarca">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temClassificacaoDietetica -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temClassificacaoDietetica"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temCor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temCor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temCorte -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temCorte"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temEmbalagem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temEmbalagem"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temGordura -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temGordura"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temParteDeOrigem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temParteDeOrigem"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temPreparacao -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temPreparacao">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temSabor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temSabor"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#eCurado -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#eCurado"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#eDoce -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#eDoce"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#eLiquido -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#eLiquido"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temAcucar -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temAcucar">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temAlcool -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temAlcool"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temConcentracao -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temConcentracao"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temGas -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temGas"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Acucarado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Acucarado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Comida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Animal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Animal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Comida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Apresentacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Apresentacao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Extrinseca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Bebida -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Bebida">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Consumo"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#eLiquido"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Cacau -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Cacau">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Comida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Caracteristica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Caracteristica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ClassesAuxiliares"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Carne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Carne">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#CarneBranca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#CarneBranca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Carne"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#CarneVermelha -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#CarneVermelha">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Carne"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Cereal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Cereal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Vegetal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ClassesAuxiliares -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ClassesAuxiliares"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ClassificacaoDietetica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ClassificacaoDietetica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Extrinseca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Comida -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Comida">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Consumo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Confecao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Confecao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Extrinseca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Consumo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Consumo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Cor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Cor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Intrinseca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Corte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Corte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Extrinseca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Embalagem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Embalagem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ClassesAuxiliares"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Extrinseca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Extrinseca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Caracteristica"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Intrinseca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Frango -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Frango">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#CarneBranca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Fruta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Fruta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Vegetal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Gordura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Gordura">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Extrinseca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Horticola -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Horticola">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Vegetal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Intrinseca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Intrinseca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Caracteristica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Lacteo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Lacteo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Bebida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Lata -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Lata">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Embalagem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Leguminoso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Leguminoso">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Vegetal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Marca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Marca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ClassesAuxiliares"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#OndeEServido -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#OndeEServido">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Extrinseca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Pacote -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Pacote">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Embalagem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ParteDeOrigem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ParteDeOrigem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Extrinseca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#PastilhaOuRebucado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#PastilhaOuRebucado">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temAcucar"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Acucarado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Peixe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Peixe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#PlantaAromatica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#PlantaAromatica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Vegetal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Porco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Porco">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temCorte"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#febra"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temParteDeOrigem"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#entrecosto"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temParteDeOrigem"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#entremeada"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#CarneVermelha"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Preparacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Preparacao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Extrinseca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Receita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Receita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Intrinseca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Refrigerante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Refrigerante">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temEmbalagem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Lata"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temEmbalagem"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Lata"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Bebida"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temGas"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Sabor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Sabor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Cor"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Fruta"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#PlantaAromatica"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Intrinseca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Sobremesa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Sobremesa">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#eDoce"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Comida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Sopa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Sopa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Comida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Sumo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Sumo">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temSabor"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Fruta"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temConcentracao"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temSabor"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Fruta"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Bebida"/>
+        <rdfs:comment>Compal Alperce Pacote
+Compal Ananas Pacote
+Compal Light 0.20cl
+Santal Light Pessego
+Compal Light Pacote
+
+Experiencia!!! 
+(eProdutoDaMarca some 
+    (Marca
+     and (eMarcaDoProduto some Sumo)))
+ and (eLiquido some Literal)
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#TipoDeCombinacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#TipoDeCombinacao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Extrinseca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#UnidadeDeMedida -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#UnidadeDeMedida">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Intrinseca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Vaca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Vaca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#CarneVermelha"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Vegetal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Vegetal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Comida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Vinho -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Vinho">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temCor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#tinto"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Bebida"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#temAlcool"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Alvarinho -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Alvarinho">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Vinho"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ArrozDoce -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ArrozDoce">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Consumo"/>
+        <Ontology1306707127855:eDoce></Ontology1306707127855:eDoce>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Cartao -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Cartao">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Pacote"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Compal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Compal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Marca"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#CompalAlpercePacote -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#CompalAlpercePacote">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Consumo"/>
+        <Ontology1306707127855:temSabor rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#alperce"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#CompalAnanasPacote -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#CompalAnanasPacote">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Consumo"/>
+        <Ontology1306707127855:temSabor rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ananas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#CompalClassic0.20cl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#CompalClassic0.20cl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Consumo"/>
+        <Ontology1306707127855:eProdutoDaMarca rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Compal"/>
+        <Ontology1306707127855:eLiquido></Ontology1306707127855:eLiquido>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#CompalLight0.20cl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#CompalLight0.20cl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Consumo"/>
+        <Ontology1306707127855:temClassificacaoDietetica rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#light"/>
+        <Ontology1306707127855:eLiquido></Ontology1306707127855:eLiquido>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#CompalLightPacote -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#CompalLightPacote">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Consumo"/>
+        <Ontology1306707127855:temClassificacaoDietetica rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#light"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#DoceDaAvo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#DoceDaAvo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Consumo"/>
+        <Ontology1306707127855:eDoce></Ontology1306707127855:eDoce>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#FebraAoPiripiri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#FebraAoPiripiri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Consumo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#HallsMentolSemAcucar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#HallsMentolSemAcucar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Consumo"/>
+        <Ontology1306707127855:temAcucar rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Ontology1306707127855:temAcucar>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Iogurte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Iogurte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Lacteo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#MenuEntremeada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#MenuEntremeada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Consumo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Porto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Porto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Vinho"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#QueijoCurado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#QueijoCurado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Lacteo"/>
+        <Ontology1306707127855:eCurado></Ontology1306707127855:eCurado>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Saltal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Saltal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Marca"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#SaltalLightPessego -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#SaltalLightPessego">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Consumo"/>
+        <Ontology1306707127855:temClassificacaoDietetica rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#light"/>
+        <Ontology1306707127855:temSabor rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#pessego"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#SemiFrioDeAnanas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#SemiFrioDeAnanas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Consumo"/>
+        <Ontology1306707127855:temPreparacao rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#semi-frio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#SumoFrescoLaranja -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#SumoFrescoLaranja">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Sumo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#acucar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#acucar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Acucarado"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#alperce -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#alperce">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Fruta"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ananas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ananas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Fruta"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#anodeproducao -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#anodeproducao">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#UnidadeDeMedida"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#arroz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#arroz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Cereal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#banana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#banana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Fruta"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#bar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#bar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#OndeEServido"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#baunilha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#baunilha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#PlantaAromatica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#bife -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#bife">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Corte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#bolo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#bolo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Preparacao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#branco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#branco">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Cor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#cabeca -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#cabeca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ParteDeOrigem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#cocacola -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#cocacola">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Refrigerante"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#compala -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#compala">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Consumo"/>
+        <Ontology1306707127855:temClassificacaoDietetica rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#light"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#costoleta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#costoleta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Corte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#cozido -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#cozido">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Confecao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#dose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#dose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#UnidadeDeMedida"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#entrecosto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#entrecosto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ParteDeOrigem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#entremeada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#entremeada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ParteDeOrigem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#espetada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#espetada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Apresentacao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#fatia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#fatia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Apresentacao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#febra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#febra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Corte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#filete -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#filete">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Corte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#frito -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#frito">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Confecao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#fruta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#fruta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#TipoDeCombinacao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#gordo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#gordo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Gordura"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#grelhado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#grelhado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Confecao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#idade -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#idade">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#UnidadeDeMedida"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#light -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#light">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ClassificacaoDietetica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#lombo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#lombo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ParteDeOrigem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#maca -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#maca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Fruta"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#macedonia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#macedonia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#TipoDeCombinacao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#magro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#magro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Gordura"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#meiogordo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#meiogordo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Gordura"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#mel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#mel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Acucarado"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#menta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#menta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#PlantaAromatica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#misto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#misto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#TipoDeCombinacao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#mousse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#mousse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Sobremesa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#papaia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#papaia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Fruta"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#pastilha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#pastilha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Acucarado"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#perna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#perna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#ParteDeOrigem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#peso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#peso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#UnidadeDeMedida"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#pessego -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#pessego">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Fruta"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#preto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#preto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Cor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#pudim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#pudim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Sobremesa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#rebucado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#rebucado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Acucarado"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#recheado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#recheado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#TipoDeCombinacao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#restaurante -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#restaurante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#OndeEServido"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#salada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#salada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#TipoDeCombinacao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#semi-frio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#semi-frio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Preparacao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#simples -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#simples">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#TipoDeCombinacao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#tarte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#tarte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Preparacao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#tetrabrick -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#tetrabrick">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Pacote"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#tinto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#tinto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Cor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#verde -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#verde">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Cor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#vermelho -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#vermelho">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Cor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#volume -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#volume">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#UnidadeDeMedida"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
