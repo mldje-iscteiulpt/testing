@@ -11,7 +11,9 @@
         <owl:versionIRI rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707086385.owl"/>
     </owl:Ontology>
     
-
+     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Vegetal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/4/Ontology1306707127855.owl#Vegetal"/>
+    </owl:Class>
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
